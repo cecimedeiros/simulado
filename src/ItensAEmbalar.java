@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ItensAEmbalar {
+public class ItensAEmbalar extends ItemASerEmbaladoIF {
     ArrayList <ItemASerEmbaladoIF> itens = new ArrayList<>();
 
     public int adicionaItem(ItemASerEmbaladoIF item){
